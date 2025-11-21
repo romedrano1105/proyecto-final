@@ -144,6 +144,7 @@ def consultar_existencias():
 
 # FUNCION MOSTRAR INVENTARIO
 def mostrar_inventario():
+    """Función que muestra todo el invenatario ingresado"""
     print("\n===== INVENTARIO COMPLETO =====\n")
 
     if len(datos_del_inventario.inventario) == 0: # Si el inventario está vacío, imprimirá el siguiente mensaje
